@@ -160,6 +160,7 @@ fun main() {
         val attendeeName = readLine()!!
         if (attendeeName.lowercase() == "quit") break
         print("Enter attendee email: ")
+        val attendeeEmail = readLine()!!
         val attendee = Attendee(attendeeName, attendeeEmail)
         attendeeDataManager.addData(attendee)
     }
