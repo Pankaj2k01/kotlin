@@ -74,6 +74,7 @@ fun main() {
 
 //Task 12: Utilize Kotlin's collection libraries to manage a collection of User objects, enabling the addition and removal of users.
 
+import java.util.Scanner;
 class User(val username: String, val password: String)
 
 class UserManager {
